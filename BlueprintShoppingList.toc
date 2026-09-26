@@ -1,0 +1,9 @@
+## Interface: 120100
+## Title: Blueprint Shopping List
+## Notes: Reopen a housing blueprint's missing-decor list anywhere, and keep it open when you leave the housing zone.
+## Author: Orosei-Sylvanas (Cipriano Groenendal)
+## Version: 1.0.0
+## SavedVariables: BlueprintShoppingListDB
+## X-Category: Housing
+
+BlueprintShoppingList.lua
