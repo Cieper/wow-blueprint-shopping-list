@@ -721,7 +721,8 @@ local function PrintMissing()
 end
 
 local function HandleSlash(msg)
-	msg = strtrim(msg or "")
+	if type(msg) ~= "string" then msg = "" end
+	msg = strtrim(msg)
 	local cmd, rest = msg:match("^(%S*)%s*(.-)$")
 	cmd = (cmd or ""):lower()
 
